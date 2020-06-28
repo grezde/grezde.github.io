@@ -5,12 +5,37 @@ body {
     padding: 0;
 }
 
+a {
+    color: rgb(100, 100, 170);
+    text-decoration: none;
+    transition: color 0.1s ease;
+}
+
+a:hover {
+    color: rgb(39, 39, 88);
+}
+
 div {
     padding: 0;
 }
 
 p, h1, div {
     margin: 0;
+}
+
+.expand_button {
+    display: none;
+}
+
+.project_info {
+    border-radius: 5px;
+    padding: 8px 20px 8px 10px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.project_info .point {
+    font-weight: bold;
 }
 
 .row_container {
@@ -24,17 +49,20 @@ p, h1, div {
     margin-bottom: 20px;
 }
 .row_container p {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+}
+.row_container .links_paragraph {
+    margin-bottom: 15px;
 }
 
-.row_container > * {
+.row_container_inside {
     width: 1100px;
     margin: 0 auto;
 }
 
 @media only screen and (max-width: 1250px) /* fullscreen screens */ {
 
-    .row_container > * {
+    .row_container_inside {
         width: 900px;
     }
 
@@ -42,7 +70,7 @@ p, h1, div {
 
 @media only screen and (max-width: 1000px) /* large window screens */ {
 
-    .row_container > * {
+    .row_container_inside {
         width: 825px;
     }
 
@@ -50,15 +78,15 @@ p, h1, div {
 
 @media only screen and (max-width: 900px) /* large window screens */ {
 
-    .row_container > * {
-        width: 630px;
+    .row_container_inside {
+        width: 629px;
     }
 
 }
 
 @media only screen and (max-width: 700px) /* small screens */ {
 
-    .row_container > * {
+    .row_container_inside {
         width: 90%;
     }
 
@@ -71,4 +99,17 @@ p, h1, div {
 #fizicarena_container {
     color: white;
     background-color: rgb(13, 53, 163);
+}
+
+#fizicarena_container .project_info {
+    background-color: rgb(174, 191, 238);
+    color: black;
+}
+
+#fizicarena_container a {
+    color: rgb(214, 186, 186);
+}
+
+#fizicarena_container a:hover {
+    color: rgb(179, 118, 118);
 }
