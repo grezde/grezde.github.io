@@ -1,18 +1,18 @@
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     margin: 0;
     padding: 0;
 }
 
 a {
-    color: rgb(100, 100, 170);
+    color: #223127;
     text-decoration: none;
     transition: color 0.1s ease;
 }
 
 a:hover {
-    color: rgb(39, 39, 88);
+    color: #41521F;
 }
 
 div {
@@ -21,6 +21,11 @@ div {
 
 p, h1, div {
     margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .expand_button {
@@ -89,27 +94,34 @@ p, h1, div {
     .row_container_inside {
         width: 90%;
     }
+    .row_container.uncollapsed {
+        padding: 50px 0px;
+    }
 
 }
 
 #jumbotron {
-    background-color: rgb(207, 207, 207);
+    background-color: #E9ECEF;
 }
 
 #fizicarena_container {
     color: white;
-    background-color: rgb(13, 53, 163);
+    background-color: #0F4C82;
 }
 
 #fizicarena_container .project_info {
-    background-color: rgb(174, 191, 238);
+    background-color: #CCE6F4;
     color: black;
 }
 
 #fizicarena_container a {
-    color: rgb(214, 186, 186);
+    color: #E3DE8F;
 }
 
 #fizicarena_container a:hover {
-    color: rgb(179, 118, 118);
+    color: #D5B942;
+}
+
+#fizicarena_container .project_info .property {
+    color: #813405;
 }
