@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding: 0;
+}
+
+p, h1, div {
+    margin: 0;
+}
+
+.row_container {
+    margin: 0;
+}
+.row_container.uncollapsed {
+    padding: 100px 0px;
+}
+
+.row_container h1 {
+    margin-bottom: 20px;
+}
+.row_container p {
+    margin-bottom: 5px;
+}
+
+.row_container > * {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1250px) /* fullscreen screens */ {
+
+    .row_container > * {
+        width: 900px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) /* large window screens */ {
+
+    .row_container > * {
+        width: 825px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) /* large window screens */ {
+
+    .row_container > * {
+        width: 630px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) /* small screens */ {
+
+    .row_container > * {
+        width: 90%;
+    }
+
+}
+
+#jumbotron {
+    background-color: rgb(207, 207, 207);
+}
+
+#fizicarena_container {
+    color: white;
+    background-color: rgb(13, 53, 163);
+}
