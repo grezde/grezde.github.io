@@ -28,6 +28,12 @@ h1 {
     font-weight: bold;
 }
 
+#page_title img {
+    height: 1em;
+    border-radius: 5px;
+    transform: translateY(10px);
+} 
+
 .expand_button {
     display: none;
 }
