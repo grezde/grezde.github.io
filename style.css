@@ -6,13 +6,13 @@ body {
 }
 
 a {
-    color: #223127;
+    color: rgb(34, 104, 255);
     text-decoration: none;
     transition: color 0.1s ease;
 }
 
 a:hover {
-    color: #41521F;
+    color: rgb(0, 0, 184);
 }
 
 div {
@@ -41,6 +41,10 @@ h1 {
 
 .project_info .point {
     font-weight: bold;
+}
+
+.project_info .value {
+    font-style: italic;
 }
 
 .row_container {
@@ -120,8 +124,4 @@ h1 {
 
 #fizicarena_container a:hover {
     color: #D5B942;
-}
-
-#fizicarena_container .project_info .property {
-    color: #813405;
 }
