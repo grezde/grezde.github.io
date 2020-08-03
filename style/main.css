@@ -55,7 +55,9 @@ h1 {
 
 .row_container {
     margin: 0;
+    border-bottom: 3px solid black;
 }
+
 .row_container.uncollapsed {
     padding: 100px 0px;
 }
@@ -63,9 +65,11 @@ h1 {
 .row_container h1 {
     margin-bottom: 20px;
 }
+
 .row_container p {
     margin-bottom: 8px;
 }
+
 .row_container .links_paragraph {
     margin-bottom: 15px;
 }
@@ -110,8 +114,19 @@ h1 {
 
 }
 
-#jumbotron {
+#jumbotron, #lastone {
     background-color: #E9ECEF;
+}
+
+#lastone {
+    padding: 20px 0 0 0;
+    height: 120px;
+    border-bottom: none;
+}
+
+#lastone img {
+    height: 100px;
+    float: right;
 }
 
 #fizicarena_container {
@@ -130,4 +145,18 @@ h1 {
 
 #fizicarena_container a:hover {
     color: #D5B942;
+}
+
+#johnson_container {
+    color: white;
+    background-color: #594236;
+}
+
+#johnson_container .project_info {
+    background-color: #ac907e;
+    color: black;
+}
+
+#johnson_container a {
+    color: #E3DE8F;
 }
