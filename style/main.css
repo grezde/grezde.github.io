@@ -59,7 +59,7 @@ h1 {
 }
 
 .row_container.uncollapsed {
-    padding: 100px 0px;
+    padding: 70px 0px;
 }
 
 .row_container h1 {
@@ -109,7 +109,7 @@ h1 {
         width: 90%;
     }
     .row_container.uncollapsed {
-        padding: 50px 0px;
+        padding: 40px 0px;
     }
 
 }
@@ -129,20 +129,27 @@ h1 {
     float: right;
 }
 
+#physicsarena_container {
+    color: black;
+    background-color: #eee;
+}
+#physicsarena_container .project_info {
+    color: black;
+    background-color:rgb(225, 231, 255);
+    border: 1px solid rgb(0, 0, 10);
+}
+
 #fizicarena_container {
     color: white;
     background-color: #0F4C82;
 }
-
 #fizicarena_container .project_info {
     background-color: #CCE6F4;
     color: black;
 }
-
 #fizicarena_container a {
     color: #E3DE8F;
 }
-
 #fizicarena_container a:hover {
     color: #D5B942;
 }
@@ -151,12 +158,10 @@ h1 {
     color: white;
     background-color: #594236;
 }
-
 #johnson_container .project_info {
     background-color: #ac907e;
     color: black;
 }
-
 #johnson_container a {
     color: #E3DE8F;
 }
