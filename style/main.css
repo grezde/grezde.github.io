@@ -165,3 +165,10 @@ h1 {
 #johnson_container a {
     color: #E3DE8F;
 }
+
+#bottom_text {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+}
